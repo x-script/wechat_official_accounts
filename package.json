@@ -1,0 +1,13 @@
+{
+  "name": "wechat_official_accounts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8",
+    "sha1": "^1.1.1",
+    "xml2js": "^0.4.23"
+  }
+}
