@@ -12,6 +12,7 @@ module.exports = async parseData => {
     toUserName: parseData.FromUserName,
     fromUserName: parseData.ToUserName,
     createTime: Date.now(),
+    msgType: 'text'
   }
   
   let content = '请输入正确关键字！';

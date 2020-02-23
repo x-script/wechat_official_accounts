@@ -7,6 +7,7 @@ module.exports = options => {
     <FromUserName><![CDATA[${options.fromUserName}]]></FromUserName>
     <CreateTime>${options.createTime}</CreateTime>
     <MsgType><![CDATA[${options.msgType}]]></MsgType>`;
+    
   if (options.msgType === 'text') {
     xmlData += `<Content><![CDATA[${options.content}]]></Content>`;
   } else if (options.msgType === 'image') {
