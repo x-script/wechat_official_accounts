@@ -1,9 +1,15 @@
 const Koa = require('koa');
 
+// 数据库连接引擎
+const connect = require('./src/model');
 // 消息回复模块
-const reply = require('./src/reply')
+const reply = require('./src/reply');
 
 const app = new Koa();
+
+;(async () => {
+  await connect()
+})()
 
 app.use(reply());
 
