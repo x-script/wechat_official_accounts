@@ -9,5 +9,15 @@ module.exports = {
   menu: {
     create: `${prefix}menu/create?`,
     delete: `${prefix}menu/delete?`,
+  },
+  temporary: {
+    upload: `${prefix}media/upload?`,
+    get: `${prefix}media/get?`
+  },
+  permanment: {
+    uploadNews: `${prefix}material/add_news?`,
+    uploadImg: `${prefix}media/uploadimg?`,
+    uploadOthers: `${prefix}material/add_material?`,
+    get: `${prefix}material/get_material?`
   }
 };
