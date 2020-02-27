@@ -421,7 +421,7 @@ class Wechat {
     return new Promise(async (resolve, reject) => {
       try {
         //获取access_token
-        const data = await this.fetchAccessToken();
+        const data = await this.getAccessToken();
         //请求的配置对象
         let options = {
           method: 'POST',
