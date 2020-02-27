@@ -8,7 +8,7 @@ const reply = require('./src/reply');
 const app = new Koa();
 
 ;(async () => {
-  await connect()
+  // await connect()
 })()
 
 app.use(reply());
